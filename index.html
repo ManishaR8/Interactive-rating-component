@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="layer">
+        <div class="star"><img src="./images/icon-star.svg" alt="" ></div>
+        
+        <div class="write-box">
+          <div class="head"> How did we do?</div>
+          <div class="para">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
+      </div>
+     
+      <div class="rating"> <ul>
+        <li><button class="btn">1</button></li>
+        <li><button class="btn">2</button></li>
+        <li><button class="btn">3</button></li>
+        <li><button class="btn">4</button></li>
+        <li><button class="btn">5</button></li>
+      </ul></div>
+     
+      <div class="submit">SUBMIT</div>
+    </div>
+      </div>
+    
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+    <div class="box" id="second_box">
+    <div class="layer1" id="second_layer">
+      <div class="img_box"> <img src="./images/illustration-thank-you.svg" alt="" /></div>
+     
+      <div class="select">You selected <span id="SelectedNum">0</span>out of 5</div> 
+  
+      <div class="thank">Thank you!</div>
+
+      <div class="para1">  We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!</div>
+    </div>
+    </div>
+      
+     
+
+        <!-- Rate Again -->
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noreferrer"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://tsbsankara.netlify.app" target="_blank" rel="noreferrer"
+        >Manisha Rathour</a
+      >.
+    </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
